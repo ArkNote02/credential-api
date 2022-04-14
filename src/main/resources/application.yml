@@ -1,0 +1,4 @@
+spring:
+  main:
+    banner-mode: off
+key: ${ENV_VALUE:value}
