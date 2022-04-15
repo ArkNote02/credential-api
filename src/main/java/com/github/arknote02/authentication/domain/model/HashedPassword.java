@@ -1,5 +1,7 @@
 package com.github.arknote02.authentication.domain.model;
 
-public record HashedPassword(String value) {
+import lombok.NonNull;
+
+public record HashedPassword(@NonNull String value) {
 
 }

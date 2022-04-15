@@ -1,5 +1,7 @@
 package com.github.arknote02.authentication.domain.model;
 
-public record LoginId(String value) {
+import lombok.NonNull;
+
+public record LoginId(@NonNull String value) {
 
 }

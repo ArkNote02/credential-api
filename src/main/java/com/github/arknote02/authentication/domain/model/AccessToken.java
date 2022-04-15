@@ -1,5 +1,7 @@
 package com.github.arknote02.authentication.domain.model;
 
-public record AccessToken(String token, String secretToken) {
+import lombok.NonNull;
+
+public record AccessToken(@NonNull String token, @NonNull String secretToken) {
 
 }

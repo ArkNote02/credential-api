@@ -12,6 +12,6 @@ public class CredentialRepositoryAdapter implements CredentialRepository {
   @Override
   public StoredCredential find(LoginId loginId) {
     // TODO
-    return new StoredCredential(loginId, new HashedPassword("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"));
+    return new StoredCredential(loginId, new HashedPassword("9b39f66e9fc6ad713334171c9e9f2363924a9d8dc57d3f39de39170d710b175f87b03b075f4d25fc1b12dc224c7eb4c64fed594c47ca3005ec75d9c970f9c6a7"));
   }
 }

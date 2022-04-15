@@ -1,9 +1,20 @@
 package com.github.arknote02.authentication.domain.model;
 
-public record Password(String value) {
+import lombok.NonNull;
+import org.apache.commons.codec.digest.DigestUtils;
+
+public record Password(@NonNull String value) {
 
   public HashedPassword hash() {
-    // TODO
-    return new HashedPassword("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8");
+    // TODO Customize hashing algorithm. (hash with a salt and repeat hashing)
+    return new HashedPassword(DigestUtils.sha512Hex("static-salt_" + value));
+  }
+
+  @Override
+  public String toString() {
+    // Should not include plain-text password
+    return "Password{" +
+        "hashCode='" + Integer.toHexString(hashCode()) + '\'' +
+        '}';
   }
 }
