@@ -1,6 +1,6 @@
-package com.github.arknote02.authentication.domain.service;
+package com.github.arknote02.authentication.adapter.service;
 
-import com.github.arknote02.authentication.domain.event.Authenticate;
+import com.github.arknote02.authentication.domain.port.AuthenticateServiceProxy;
 import com.github.arknote02.authentication.domain.model.AccessToken;
 import com.github.arknote02.authentication.domain.model.Credential;
 import com.github.arknote02.authentication.domain.model.HashedPassword;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 
 @RequiredArgsConstructor
 @Component
-public class AuthenticateService implements Authenticate {
+public class AuthenticateService implements AuthenticateServiceProxy {
 
   private final CredentialRepository repository;
   private final AccessTokenNotifier notifier;
