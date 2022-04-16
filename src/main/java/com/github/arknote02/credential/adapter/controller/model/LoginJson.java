@@ -1,4 +1,4 @@
-package com.github.arknote02.authentication.adapter.controller.model;
+package com.github.arknote02.credential.adapter.controller.model;
 
 import com.github.arknote02.credential.domain.model.Credential;
 import com.github.arknote02.credential.domain.model.LoginId;

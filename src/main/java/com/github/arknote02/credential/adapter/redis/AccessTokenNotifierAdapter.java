@@ -1,4 +1,4 @@
-package com.github.arknote02.authentication.adapter.redis;
+package com.github.arknote02.credential.adapter.redis;
 
 import com.github.arknote02.credential.domain.model.AccessToken;
 import com.github.arknote02.credential.domain.model.LoginId;

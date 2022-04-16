@@ -1,4 +1,4 @@
-package com.github.arknote02.authentication;
+package com.github.arknote02.credential;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.github.arknote02.authentication.adapter.dynamodb;
+package com.github.arknote02.credential.adapter.dynamodb;
 
 import com.github.arknote02.credential.domain.model.HashedPassword;
 import com.github.arknote02.credential.domain.model.LoginId;

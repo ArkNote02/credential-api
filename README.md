@@ -1,6 +1,10 @@
 # Basic structure of my Java application
 The basic structure depends on the Gradle Wrapper.
 
+## Git Submodule
+After cloning this project, check out submodules.  
+`git submodule init && git submodule update`
+
 ## The Gradle Wrapper
 ### Upgrading the Gradle Wrapper  
 <https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:upgrading_wrapper>  
