@@ -16,7 +16,7 @@ compileTestJava.options.encoding = 'UTF-8'
 javadoc.options.encoding = 'UTF-8'
 
 run {
-    mainClassName = 'com.github.arknote02.authentication.Application'
+    mainClassName = 'com.github.arknote02.credential.Application'
 }
 
 repositories {
