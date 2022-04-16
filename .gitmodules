@@ -1,0 +1,3 @@
+[submodule "submodule/authentication"]
+	path = submodule/authentication
+	url = https://github.com/ArkNote02/BasicStructure_Domain.git
