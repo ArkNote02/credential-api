@@ -1,2 +1,2 @@
-rootProject.name = 'authentication-api'
-include 'submodule:authentication'
+rootProject.name = 'credential-api'
+include 'submodule:credential'

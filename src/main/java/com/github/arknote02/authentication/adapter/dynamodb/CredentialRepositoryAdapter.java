@@ -1,9 +1,9 @@
 package com.github.arknote02.authentication.adapter.dynamodb;
 
-import com.github.arknote02.authentication.domain.model.HashedPassword;
-import com.github.arknote02.authentication.domain.model.LoginId;
-import com.github.arknote02.authentication.domain.model.StoredCredential;
-import com.github.arknote02.authentication.domain.port.CredentialRepository;
+import com.github.arknote02.credential.domain.model.HashedPassword;
+import com.github.arknote02.credential.domain.model.LoginId;
+import com.github.arknote02.credential.domain.model.StoredCredential;
+import com.github.arknote02.credential.domain.port.CredentialRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

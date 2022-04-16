@@ -1,13 +1,13 @@
 package com.github.arknote02.authentication.adapter.service;
 
-import com.github.arknote02.authentication.domain.port.AuthenticateServiceProxy;
-import com.github.arknote02.authentication.domain.model.AccessToken;
-import com.github.arknote02.authentication.domain.model.Credential;
-import com.github.arknote02.authentication.domain.model.HashedPassword;
-import com.github.arknote02.authentication.domain.model.LoginId;
-import com.github.arknote02.authentication.domain.model.StoredCredential;
-import com.github.arknote02.authentication.domain.port.AccessTokenNotifier;
-import com.github.arknote02.authentication.domain.port.CredentialRepository;
+import com.github.arknote02.credential.domain.port.AuthenticateServiceProxy;
+import com.github.arknote02.credential.domain.model.AccessToken;
+import com.github.arknote02.credential.domain.model.Credential;
+import com.github.arknote02.credential.domain.model.HashedPassword;
+import com.github.arknote02.credential.domain.model.LoginId;
+import com.github.arknote02.credential.domain.model.StoredCredential;
+import com.github.arknote02.credential.domain.port.AccessTokenNotifier;
+import com.github.arknote02.credential.domain.port.CredentialRepository;
 import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,8 +1,8 @@
 package com.github.arknote02.authentication.adapter.redis;
 
-import com.github.arknote02.authentication.domain.model.AccessToken;
-import com.github.arknote02.authentication.domain.model.LoginId;
-import com.github.arknote02.authentication.domain.port.AccessTokenNotifier;
+import com.github.arknote02.credential.domain.model.AccessToken;
+import com.github.arknote02.credential.domain.model.LoginId;
+import com.github.arknote02.credential.domain.port.AccessTokenNotifier;
 import org.springframework.stereotype.Component;
 
 @Component
