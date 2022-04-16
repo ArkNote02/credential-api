@@ -49,4 +49,5 @@ test {
 checkstyle {
     toolVersion = '10.1'
     configFile = file 'config/checkstyle/google_checks.xml'
+    ignoreFailures = true
 }

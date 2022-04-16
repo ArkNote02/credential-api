@@ -13,8 +13,6 @@ public record Password(@NonNull String value) {
   @Override
   public String toString() {
     // Should not include plain-text password
-    return "Password{" +
-        "hashCode='" + Integer.toHexString(hashCode()) + '\'' +
-        '}';
+    return "Password{hashCode='" + Integer.toHexString(hashCode()) + "'}";
   }
 }

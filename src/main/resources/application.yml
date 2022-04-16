@@ -1,4 +1,4 @@
 spring:
   main:
     banner-mode: off
-key: ${ENV_VALUE:value}
+key: ${ENV_VALUE:9b39f66e9fc6ad713334171c9e9f2363924a9d8dc57d3f39de39170d710b175f87b03b075f4d25fc1b12dc224c7eb4c64fed594c47ca3005ec75d9c970f9c6a7}
